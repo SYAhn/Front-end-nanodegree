@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+
+  <title>My portfolio</title>
+
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+</head>
+
+<body>
+  <header class = "header">
+    <img class = "logo" src ="http://placekitten.com/100/100" alt="logo">
+      <div class = "header__text">
+        <h1 id="name">FRANK AHN</h1>
+        <h3 id="job">FRONT-END DEVELOPER</h3>
+      </div>
+  </header>
+
+  <hr>
+
+
+
+  <footer>
+
+  </footer>
+</body>
+</html>

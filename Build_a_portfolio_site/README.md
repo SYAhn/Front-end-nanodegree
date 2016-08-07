@@ -9,3 +9,8 @@
   <li>HTML5: Bad value X-UA-Compatible for attribute http-equiv on element meta when using the X-UA-Compatible meta tag.
   <li>CSS3: Property [some property here] is an unknown vendor extension when using vendor prefixed properties (like -moz-box-sizing).
 </ul>
+
+
+#Project Rubrics:
+
+<a href="https://review.udacity.com/#!/rubrics/45/view"></a>
