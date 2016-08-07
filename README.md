@@ -1,2 +1,2 @@
-# Front-end-nanodegree-
+# Front-end-nanodegree
 Udacity front-end nanodegree projects
