@@ -9,20 +9,51 @@
   <title>My portfolio</title>
 
   <link rel="stylesheet" href="css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
 </head>
 
 <body>
   <header class = "header">
-    <img class = "logo" src ="http://placekitten.com/100/100" alt="logo">
+    <img class = "logo" src ="img/profile.jpeg" alt="logo">
       <div class = "header__text">
         <h1 id="name">FRANK AHN</h1>
-        <h3 id="job">FRONT-END DEVELOPER</h3>
+        <h3 id="job">FRONT-END DEVELOPER / NEWBIE PHOTOGRAPHER</h3>
       </div>
   </header>
 
   <hr>
 
+  <main>
+    <section class="main__content">
+      <img class="main__photo" src="img/uncle_dad.jpg" alt="main-photo" >
+      <section class="sub__content">
+        <h2 class="sub__title">Featured Work</h2>
+        <section class="sub__photo">
+          <figure id="jeju">
+            <img class="jeju__photo" src="img/jeju.jpg" alt="jeju-photo">
+            <figcaption class="jeju__text">
+              <h3>jeju</h3>
+              <p>https://github.com/syahn/jeju</p>
+            </figcaption>
+          </figure>
+          <figure id="gwanghwamoon__photo">
+            <img class="gwanghwamoon__photo" src="img/gwanghwamoon.jpg" alt="gwanghwamoon-photo">
+            <figcaption class="gwanghwamoon__text">
+              <h3>gwanghwamoon</h3>
+              <p>https://github.com/syahn/gwanghwamoon</p>
+            </figcaption>
+          </figure>
+          <figure id="hometown__photo">
+            <img class="hometown__photo" src="img/hometown.jpg" alt="hometown-photo">
+            <figcaption class="hometown__text">
+              <h3>hometown</h3>
+              <p>https://github.com/syahn/hometown</p>
+            </figcaption>
+          </figure>
+        </section>
+      </section>
+    </section>
+  </main>
 
 
   <footer>

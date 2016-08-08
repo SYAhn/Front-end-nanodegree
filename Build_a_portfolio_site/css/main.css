@@ -1,24 +1,14 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
-/*
-body, html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-}*/
 
 body {
-  font-family: 'Inconsolata', monospace;
-  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #2d3c49;
   line-height: 1.2em;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 75%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -26,35 +16,80 @@ h1, h2, h3, h4, h5 {
 }
 
 hr {
-  border: solid 3px #7d97ad;
+  border: solid 3px #2d3c49;
+  margin: 25px 0;
 }
 
 header {
-  margin-top: 10px;
+  margin-top: 5%;
   display: flex;
   flex-wrap: wrap;
 }
 
+figure {
+  margin: 0;
+}
+
+figcaption h3 {
+  font-size: 27px;
+  text-align: center;
+  padding-top: 1em;
+}
+
+p {
+  text-align: center;
+}
+
 .header__text {
-  padding-bottom: 10px;
   margin-left: auto;
 }
 
 .logo {
   margin-right: auto;
-  /*max-width: 100px;*/
-  height: 100%;
+  width: 9%;
+  height: 9%;
+  border-radius: 3em;
 }
 
 #name {
   margin-top: 2%;
   font-size: 5em;
+  font-weight: 300;
   padding: 20px 0;
 
 }
 
 #job {
-  font-size: 24px;
+  font-size: 18.4px;
+  color: #7d97ad;
   margin: 7px 0;
   text-align: right;
+}
+
+.main__photo {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1%;
+}
+
+.sub__content {
+  width: 100%;
+}
+.sub__photo {
+  display: flex;
+  max-width: 100%;
+}
+
+.sub__title {
+  margin: 32px 0;
+  font-size: 2em;
+}
+
+.jeju__photo, .gwanghwamoon__photo, .hometown__photo {
+  width: 100%;
+  padding-right: 20px;
+}
+
+.hometown__photo {
+  padding-right: 0;
 }
