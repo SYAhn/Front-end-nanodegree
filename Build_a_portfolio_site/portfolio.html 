@@ -13,11 +13,11 @@
 </head>
 
 <body>
-  <header class = "header">
-    <img class = "logo" src ="img/profile.jpeg" alt="logo">
-      <div class = "header__text">
-        <h1 id="name">FRANK AHN</h1>
-        <h3 id="job">FRONT-END DEVELOPER / NEWBIE PHOTOGRAPHER</h3>
+  <header class="header">
+    <img class="logo" src="img/profile.jpeg" alt="logo">
+      <div class="header__text">
+        <h1 class="name">FRANK AHN</h1>
+        <h3 class="job">FRONT-END DEVELOPER / NEWBIE PHOTOGRAPHER</h3>
       </div>
   </header>
 
@@ -29,21 +29,21 @@
       <section class="sub__content">
         <h2 class="sub__title">Featured Work</h2>
         <section class="sub__photo">
-          <figure id="jeju">
+          <figure class="jeju">
             <img class="jeju__photo" src="img/jeju.jpg" alt="jeju-photo">
             <figcaption class="jeju__text">
               <h3>jeju</h3>
               <p>https://github.com/syahn/jeju</p>
             </figcaption>
           </figure>
-          <figure id="gwanghwamoon__photo">
+          <figure class="gwanghwamoon">
             <img class="gwanghwamoon__photo" src="img/gwanghwamoon.jpg" alt="gwanghwamoon-photo">
             <figcaption class="gwanghwamoon__text">
               <h3>gwanghwamoon</h3>
               <p>https://github.com/syahn/gwanghwamoon</p>
             </figcaption>
           </figure>
-          <figure id="hometown__photo">
+          <figure class="hometown">
             <img class="hometown__photo" src="img/hometown.jpg" alt="hometown-photo">
             <figcaption class="hometown__text">
               <h3>hometown</h3>
@@ -54,7 +54,6 @@
       </section>
     </section>
   </main>
-
 
   <footer>
 
