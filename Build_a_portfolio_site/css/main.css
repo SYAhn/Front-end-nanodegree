@@ -1,4 +1,8 @@
-
+/*
+ *
+ * Common
+ *
+ */
 
 * {
     box-sizing: border-box;
@@ -15,7 +19,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 75%;
-  /*min-width: 410px;*/
 }
 
 h1, h2, h3, h4, h5 {
@@ -30,36 +33,8 @@ hr {
   margin: 0;
 }
 
-.main__line {
-  border: solid 3px #9b9c9e;
-  margin-top: 2%;
-}
-
-.sub__line {
-  border: solid 1.5px #dcddde;
-  margin-top: 32px;
-}
-
-/*
- *
- * Header
- *
- */
-
-header {
-  margin-top: 5%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
 figure {
   margin: 0;
-}
-
-figcaption h3 {
-  font-size: 27px;
-  text-align: center;
-  padding-top: 18px;
 }
 
 p {
@@ -70,8 +45,21 @@ h3 {
   font-weight: bold;;
 }
 
-.header__text {
-  /*margin-left: auto;*/
+/*
+ *
+ * Header
+ *
+ */
+
+.main__line {
+  border: solid 3px #9b9c9e;
+  margin-top: 2%;
+ }
+
+header {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -96,9 +84,32 @@ h3 {
   text-align: right;
 }
 
+/*
+ *
+ * Main
+ *
+ */
+
 .main__photo {
   width: 100%;
   height: auto;
+}
+
+/*
+ *
+ * Sub
+ *
+ */
+
+.sub__line {
+   border: solid 1.5px #dcddde;
+   margin-top: 32px;
+}
+
+figcaption h3 {
+  font-size: 27px;
+  text-align: center;
+  padding-top: 18px;
 }
 
 .sub__content {
@@ -111,6 +122,7 @@ h3 {
 
 .sub__title {
   margin-top: 32px;
+  margin-bottom: 16px;
   font-size: 2em;
 }
 
@@ -133,7 +145,7 @@ h3 {
 
 /*
  *
- * Responsive
+ * Media query
  *
  */
 
