@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+
+  <title>My portfolio</title>
+
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <img class="logo" src="img/profile.jpeg" alt="logo">
+      <div class="header__text">
+        <h1 class="name">FRANK AHN</h1>
+        <h3 class="job">FRONT-END DEVELOPER / NEWBIE PHOTOGRAPHER</h3>
+      </div>
+  </header>
+
+  <hr class="main__line">
+
+  <main>
+    <section class="main__content">
+
+      <figure class="uncle_dad">
+        <img class="main__photo" src="img/uncle_dad.jpg" alt="main-photo" >
+        <figcaption class="uncle_dad__text">
+          <h3>uncle&dad</h3>
+          <p>https://github.com/syahn/uncle&dad</p>
+        </figcaption>
+      </figure>
+
+    <hr class="sub__line">
+
+    <section class="sub__content">
+      <h2 class="sub__title">Featured Work</h2>
+
+        <section class="sub__photo">
+
+          <figure class="jeju">
+            <img class="jeju__photo" src="img/jeju.jpg" alt="jeju-photo">
+            <figcaption class="jeju__text">
+              <h3>jeju</h3>
+              <p>https://github.com/syahn/jeju</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gwanghwamoon">
+            <img class="gwanghwamoon__photo" src="img/gwanghwamoon.jpg" alt="gwanghwamoon-photo">
+            <figcaption class="gwanghwamoon__text">
+              <h3>gwanghwamoon</h3>
+              <p>https://github.com/syahn/gwanghwamoon</p>
+            </figcaption>
+          </figure>
+
+          <figure class="hometown">
+            <img class="hometown__photo" src="img/hometown.jpg" alt="hometown-photo">
+            <figcaption class="hometown__text">
+              <h3>hometown</h3>
+              <p>https://github.com/syahn/hometown</p>
+            </figcaption>
+          </figure>
+
+        </section> <!-- sub__photo -->
+      </section> <!-- sub__content -->
+    </section> <!-- main__content -->
+  </main>
+
+  <footer>
+
+  </footer>
+</body>
+</html>

@@ -1,0 +1,217 @@
+/*
+ *
+ * Common
+ *
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+  min-width: 410px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2d3c49;
+  line-height: 1.2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+img {
+  margin-top: 3%;
+}
+
+hr {
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+p {
+  text-align: center;
+}
+
+h3 {
+  font-weight: bold;;
+}
+
+/*
+ *
+ * Header
+ *
+ */
+
+.main__line {
+  border: solid 3px #9b9c9e;
+  margin-top: 2%;
+ }
+
+header {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin: auto auto auto 0;
+  width: 92px;
+  height: 92px;
+  border-radius: 3em;
+}
+
+.name {
+  margin-top: 1%;
+  font-size: 5em;
+  font-weight: 300;
+  padding: 20px 0;
+  text-align: right;
+}
+
+.job {
+  font-size: 18.4px;
+  color: #7d97ad;
+  margin: 7px 0;
+  text-align: right;
+}
+
+/*
+ *
+ * Main
+ *
+ */
+
+.main__photo {
+  width: 100%;
+  height: auto;
+}
+
+/*
+ *
+ * Sub
+ *
+ */
+
+.sub__line {
+   border: solid 1.5px #dcddde;
+   margin-top: 32px;
+}
+
+figcaption h3 {
+  font-size: 27px;
+  text-align: center;
+  padding-top: 18px;
+}
+
+.sub__content {
+  width: 100%;
+}
+.sub__photo {
+  display: flex;
+  max-width: 100%;
+}
+
+.sub__title {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  font-size: 2em;
+}
+
+.jeju__photo, .gwanghwamoon__photo, .hometown__photo {
+  width: 100%;
+  padding: 0 6px;
+}
+
+.jeju {
+  min-width: 33%;
+}
+
+.gwanghwamoon {
+  min-width: 33%;
+}
+
+.hometown {
+  min-width: 33%;
+}
+
+/*
+ *
+ * Media query
+ *
+ */
+
+@media screen and (max-width: 1200px) {
+  .sub__photo {
+    display: block;
+  }
+  .jeju__photo, .gwanghwamoon__photo, .hometown__photo {
+    padding: 0;
+  }
+
+@media screen and (max-width: 725px) {
+  .name {
+    font-size: 4em;
+    margin-top: -1%;
+  }
+  .job {
+    font-size: 14.8px;
+    margin: 0px 0;
+  }
+  .logo {
+    width: 78px;
+    height: 78px;
+  }
+  .sub__photo {
+    display:
+  }
+}
+
+@media screen and (max-width: 600px) {
+  figcaption h3{
+    font-size: 23px;
+  }
+
+  h2, p {
+    font-size: 12px;
+  }
+
+  .name {
+    font-size: 3em;
+    margin-top: -4%;
+  }
+  .job {
+    font-size: 11px;
+    margin: -9px 0;
+  }
+  .logo {
+    width: 57px;
+    height: 57px;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .name {
+    font-size: 43px;
+    margin-top: -4%;
+  }
+
+  .job {
+    font-size: 10px;
+    margin: -13px 0;
+  }
+
+  .logo {
+    width: 55px;
+    height: 55px;
+    margin: auto auto auto 0;
+  }
+}
