@@ -42,7 +42,7 @@ https://syahn.github.io/frontend-nanodegree-build_a_portfolio_site/
   * you do not need to use any units if the value is 0 :)
 
 
-###Review and feedback:
+###Reflections:
 
 * I should consider optimization issue to achieve true responsiveness.
 * Get used to massage CSS and build html structure.
