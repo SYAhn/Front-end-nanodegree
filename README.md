@@ -16,7 +16,7 @@
 
 ###Mockup:
 
-![Mockup](design-mockup-portfolio.pdf)
+https://www.udacity.com/api/nodes/3881828682/supplemental_media/design-mockup-portfoliopdf/download?_ga=1.82782623.880270135.1469626837
 
 
 ###My work:
